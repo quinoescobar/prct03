@@ -1,0 +1,25 @@
+Respuestas Laboratorio 3 LPP
+
+José Joaquín Escobar Gómez
+
+
+
+
+18.)2.0.0p247 :002 > puts "hello world"
+hello world
+ => nil
+
+
+21.)Diferencia entre ejecucion con ruby y con irb ,
+es que con ruby se ejecuta directamente el codigom, mientras que 
+con irb es mas interactivo y linea a linea.  
+
+alu4635@cc202:~/datos/homes.rala/LPP/prct03$ irb helloworld.rb 
+2.0.0p247 :001 > puts "helloWorld"
+helloWorld
+ => nil 
+2.0.0p247 :002 > 
+alu4635@cc202:~/datos/homes.rala/LPP/prct03$ ruby  helloworld.rb 
+helloWorld
+
+ 
