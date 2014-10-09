@@ -23,3 +23,32 @@ alu4635@cc202:~/datos/homes.rala/LPP/prct03$ ruby  helloworld.rb
 helloWorld
 
  
+26.)
+
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)*   puts"hello world"
+[2] pry(main)* end  
+=> nil
+[3] pry(main)> hello
+hello world
+=> nil
+[4] pry(main)> byebye
+bye bye world!!!
+=> nil
+[5] pry(main)> x = "changed"
+=> "changed"
+[6] pry(main)> exit
+program resumes here. Value of x is: changed.
+
+
+
+27.)
+La principal diferencia entre ejecutar el programa helloWorld.rb 
+con el interprete interactivo y con PRY es,que PRY actua como si lo estuviera 
+ejecutando con RUBY directamente
+
+
+
